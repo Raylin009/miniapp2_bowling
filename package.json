@@ -1,0 +1,29 @@
+{
+  "name": "ghrsea01-miniapp3",
+  "version": "1.0.0",
+  "description": "A single-page app implementation of a 10-pin Bowling game using Express and React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Raylin009/miniapp2_bowling.git"
+  },
+  "keywords": [
+    "bowling"
+  ],
+  "author": "Ray Lin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Raylin009/miniapp2_bowling/issues"
+  },
+  "homepage": "https://github.com/Raylin009/miniapp2_bowling#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.13.0"
+  }
+}
