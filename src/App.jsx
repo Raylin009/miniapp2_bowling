@@ -19,9 +19,7 @@ class App extends React.Component {
           <h4> brought to you by Ray Lin</h4>
         </div>
         <div className="ScoreCard">
-          <h5>Score Card</h5>
           <ScoreCard />
-          <h6>Frams</h6>
           <h6>LastFram</h6>
         </div>
         <div className="scoreInput">

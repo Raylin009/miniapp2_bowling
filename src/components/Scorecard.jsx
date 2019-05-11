@@ -1,5 +1,5 @@
 import React from 'react';
-// import Frams from './Frams.jsx';
+import Frams from './Frams.jsx';
 
 class ScoreCard extends React.Component {
   constructor(props) {
@@ -18,6 +18,9 @@ class ScoreCard extends React.Component {
     return (
       <div>
         Score Card Component present
+        <div>
+          <Frams />
+        </div>
       </div>
     );
   }
