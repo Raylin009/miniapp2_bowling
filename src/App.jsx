@@ -1,10 +1,14 @@
 import React from 'react';
-
+import ScoreCard from './components/ScoreCard.jsx';
+import KeyPad from './components/Keypad.jsx';
 
 class App extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+      input:'',
+      currentScore:'',
+    };
   }
 
   render() {
@@ -14,8 +18,9 @@ class App extends React.Component {
           <h2>Bowling App</h2>
           <h4> brought to you by Ray Lin</h4>
         </div>
-        <div>
+        <div className="ScoreCard">
           <h5>Score Card</h5>
+          <ScoreCard />
           <h6>Frams</h6>
           <h6>LastFram</h6>
         </div>
