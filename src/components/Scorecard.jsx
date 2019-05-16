@@ -6,11 +6,11 @@ class ScoreCard extends React.Component {
     super(props);
     this.state = {
       toalFrams:10,
-      fram:'',
-      round:'',
-      curScore:'',
-      next1stround:'',
-      next2edround:'',
+      acumulatedScore:'',
+      currentRoundScore:'',
+      currentFram:'',
+      bonusPointElagible:'',
+      bonusPoint:'',
     };
   }
 

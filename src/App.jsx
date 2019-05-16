@@ -24,6 +24,7 @@ class App extends React.Component {
         </div>
         <div className="scoreInput">
           <h5>KeyPad</h5>
+          <KeyPad />
           <h6>Keys</h6>
         </div>
       </div>

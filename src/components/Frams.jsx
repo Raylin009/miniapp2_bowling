@@ -4,6 +4,13 @@ const blueBox = {
   border: '2px solid blue',
   width: '100px',
 };
+
+const divider = {
+  'borderWidth': '0px 0px 2px 2px',
+  'borderStyle': 'solid',
+  'borderColor': 'blue',
+};
+
 const flexBox = {
   display: 'flex',
 };
@@ -19,9 +26,9 @@ class Frams extends React.Component {
       <div style={blueBox}>
         <div style={flexBox}>
           <div>top Left</div>
-          <div style={blueBox}>top right</div>
+          <div style={divider}>top right</div>
         </div>
-        <div>bottom result</div>
+        <div>accumulativ score + current round score + maybe bonust points</div>
       </div>
     );
   }
